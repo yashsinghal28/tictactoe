@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react';
+import Board from './conponents/Board';
 
-const App = () =>{
-  return(
+const App = () => {
+  return (
     <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-    <small>hello this is yash singhal</small>
+      <div>
+        <h1>Tic Tac Toe</h1>
+        <Board />
+      </div>
     </>
   );
 };
